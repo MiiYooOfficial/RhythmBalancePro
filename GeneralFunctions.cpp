@@ -325,3 +325,8 @@ std::string convertRestToXML(std::string rest) {
             return ERROR;
     }
 }
+
+void exitProgram() {
+    std::cout << "Program finished, hit enter to exit . . . ";
+    std::cin.ignore();
+}

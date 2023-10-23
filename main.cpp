@@ -248,5 +248,9 @@ int main() {
         // write results to answers XML file
         for (int line = 0; line < numLines; line++)
             answers << file[line] << std::endl;
+
+        std::cout << "\n" << "Homework Solved!" << std::endl << std::endl;
     }
+
+    exitProgram();
 }

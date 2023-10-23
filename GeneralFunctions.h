@@ -77,3 +77,8 @@ std::string computeDuration(std::string rest, int divisions);
 // arguments: the rest whose XML notation you wish to determine
 // returns the rest in XML format as a string
 std::string convertRestToXML(std::string rest);
+
+// continuous loop that awaits an input from the user before closing the application
+// arguments: none
+// returns nothing
+void exitProgram();
