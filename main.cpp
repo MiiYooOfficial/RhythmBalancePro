@@ -68,6 +68,9 @@ int main() {
                 }
             }
         }
+
+        answers.close();
+        std::cout << "\n" << "Homework Solved!" << std::endl << std::endl;
     }
 
     else if (problemFileTypeOption == MUSICXML) {
