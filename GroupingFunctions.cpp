@@ -1,4 +1,5 @@
 #include <string>
+#include <algorithm>
 
 #include "GroupingFunctions.h"
 #include "Globals.h"

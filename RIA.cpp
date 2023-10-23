@@ -1,4 +1,5 @@
 #include <string>
+#include <algorithm>
 
 #include "RIA.h"
 #include "Globals.h"

@@ -2,6 +2,7 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+#include <algorithm>
 
 #include "Globals.h"
 #include "GeneralFunctions.h"
