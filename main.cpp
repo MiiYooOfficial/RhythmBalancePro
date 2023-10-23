@@ -2,6 +2,7 @@
 #include <string>
 #include <sstream>
 #include <fstream>
+#include <algorithm>
 
 #include "Globals.h"
 #include "Grouping.h"
