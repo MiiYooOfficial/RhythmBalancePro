@@ -125,15 +125,15 @@ std::string* addElementToArray(std::string* array, int &capacity, std::string li
         return array;
 
     std::string* temp = new std::string[capacity + 1];
-    bool lineInserted = false;
+    bool elementInserted = false;
     if (capacity > 0) {
         for (int i = 0; i < capacity + 1; i++) {
             if (i == elementNumber) {
                 temp[i] = line;
-                lineInserted = true;
+                elementInserted = true;
             }
             else {
-                if (!lineInserted)
+                if (!elementInserted)
                     temp[i] = array[i];
                 else
                     temp[i] = array[i - 1];
@@ -153,12 +153,12 @@ std::string* removeElementFromArray(std::string* array, int &capacity, int eleme
         return array;
 
     std::string* temp = new std::string[capacity - 1];
-    bool lineFound = false;
+    bool elementFound = false;
     for (int i = 0; i < capacity; i++) {
         if (i == elementNumber)
-            lineFound = true;
+            elementFound = true;
         else {
-            if (!lineFound)
+            if (!elementFound)
                 temp[i] = array[i];
             else
                 temp[i - 1] = array[i];
