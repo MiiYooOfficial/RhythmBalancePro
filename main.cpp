@@ -251,6 +251,7 @@ int main() {
         // write results to answers XML file
         for (int line = 0; line < numLines; line++)
             answers << file[line] << std::endl;
+        answers.close();
 
         std::cout << "\n" << "Homework Solved!" << std::endl << std::endl;
     }
