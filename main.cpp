@@ -248,7 +248,7 @@ int main() {
             file = addElementToArray(file, numLines, "<movement-title>[Powered by RhythmBalancePro]</movement-title>", fileIndex + 1);
         }
 
-        // write results to answers XML file
+        // write results to answers MusicXML file
         for (int line = 0; line < numLines; line++)
             answers << file[line] << std::endl;
         answers.close();
