@@ -9,7 +9,7 @@ class Grouping {
 		// Constructor
 		Grouping(int timeSignatureDenominator, std::string notes);
 
-		// Mutators
+		// Accessors
 		std::string getRawNotes();
 		std::string getSimplifiedNotes();
 		double getTotalValue();
